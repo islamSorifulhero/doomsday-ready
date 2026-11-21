@@ -1,0 +1,16 @@
+{
+  "name": "doomsday-ready-api",
+  "version": "1.0.0",
+  "description": "API for Doomsday Ready: MCU rewatch order and opening-night booking",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
